@@ -185,7 +185,7 @@ def start_game():
     screen_width = window.winfo_screenwidth() #screen width & height refers to dimensions of computer screen
     screen_height = window.winfo_screenheight()
 
-    #finds shift in window to make windown go towards center of user's screen
+    #finds shift in window to make window go towards center of user's screen
     x = int((screen_width/2) - (window_width/2))
     y = int((screen_height/2) - (window_height/2))
 
